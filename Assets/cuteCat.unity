@@ -334,9 +334,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1910738521}
   - component: {fileID: 1910738520}
-  - component: {fileID: 1910738519}
   - component: {fileID: 1910738523}
   - component: {fileID: 1910738522}
+  - component: {fileID: 1910738524}
   m_Layer: 0
   m_Name: player-jump-1
   m_TagString: Untagged
@@ -344,24 +344,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1910738519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1910738518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ccf2da154a6de064aa8f136640109ad3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distancia: 0
-  mask:
-    serializedVersion: 2
-    m_Bits: 0
-  corpo: {fileID: 0}
-  moeda: {fileID: 0}
 --- !u!212 &1910738520
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -483,6 +465,20 @@ PolygonCollider2D:
       - {x: 0.17, y: -0.01}
       - {x: 0.17, y: 0.07}
       - {x: 0.13, y: 0.16}
+--- !u!114 &1910738524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1910738518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05425a6dfb0e08d45b1aac8ff15b5573, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  face: 1
+  heroiT: {fileID: 0}
 --- !u!1 &2146390428
 GameObject:
   m_ObjectHideFlags: 0

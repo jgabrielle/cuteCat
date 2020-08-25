@@ -56,10 +56,10 @@ public class variaveis : MonoBehaviour
     
     }
 
-    /*private void OnDrawGizmos()
+    private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, (Vector2)transform.position  + Vector2.right * transform.localScale.x * distancia);
-    }*/
+    }
 
 }
