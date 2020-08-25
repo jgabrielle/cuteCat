@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,9 +20,8 @@ public class variaveis : MonoBehaviour
     {
         
 
-        float h = Input.GetAxis("Horizontal");
-        float v = Input.GetAxis("Vertical");
-        transform.Translate(new Vector3(h * Time.deltaTime,v * Time.deltaTime,0 ));
+
+       
         
         
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector3.right * transform.localScale.x, distancia, mask);
@@ -60,6 +59,6 @@ public class variaveis : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, (Vector2)transform.position  + Vector2.right * transform.localScale.x * distancia);
-    }
+    }*/
 
 }
